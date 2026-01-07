@@ -1,7 +1,7 @@
 ---
 ---
 
-# Bryan-Soda's Website
+# About Us
 
 An engaging 1-3 sentence description of your lab.
 
