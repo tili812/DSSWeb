@@ -4,11 +4,16 @@
 $page: 1000px;
 $padding: 40px;
 
+$extraPadding: 150px;
+
 section {
   padding: $padding max($padding, calc((100% - $page) / 2));
   transition: background var(--transition), color var(--transition);
 }
-
+//added 'hero' scss styling
+section[data-size="hero"]{
+  padding: $extraPadding max($extraPadding, calc((100% - $page) / 2));
+}
 section[data-size="wide"] {
   padding: $padding;
 }

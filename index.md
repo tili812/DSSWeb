@@ -1,9 +1,11 @@
 ---
 ---
 
-# About Us
 
-An engaging 1-3 sentence description of your lab.
+{% include section.html size="hero" %} 
+{%comment%} ^^This section had to placed prior to the #HERO for the 'datasize' to be applied (ie: allows this section to have hero aspects applied)   {%endcomment%}
+# HERO
+This is our hero portion of the homepage, where we give a quick and attention grabbing blurb
 
 {% include section.html %}
 
