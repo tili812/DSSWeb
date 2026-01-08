@@ -5,6 +5,6 @@
 
   # Bryan-Soda's Website
 
-  Visit **[bryan-soda.github.io/DSSWeb](https://bryan-soda.github.io/DSSWeb)** 🚀
+  Visit **[dssucm.org](http://dssucm.org)** 🚀
 
   _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
