@@ -1,50 +1,49 @@
 - title: Intro to Regression Project - House Price Prediction
-  subtitle: a subtitle
+  subtitle: <b>(Beginner)</b>
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: It is your job to predict the sales price for each house. For each Id in the test set, you must predict the value of the SalePrice variable. 
-  repo: greenelab/lab-website-template
-  tags:
-    - software
-
-- title: Computer Vision Project - Spot it! Game
-  subtitle: a subtitle
-  group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: We will train a custom dataset using Roboflow and Yolo models, for the computer to play the Spot it! Game
-  repo: greenelab/lab-website-template
+  image: images/house_prediction.png
+  # link: https://github.com/
+  description: Predict the sales price for each house based on certain factors like location, size, number of rooms, and overall condition.
+  # repo: greenelab/lab-website-template
   tags:
     - software
 
 - title: DSS Website
-  subtitle: a subtitle
+  subtitle: <b>(Beginner)</b>
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Our DSS UCM website creation (About us, projects, workshops, external resources).
-  repo: greenelab/lab-website-template
-  tags:
-    - software
-
-- title: Conser-vision Practice Area - Image Classification
-  subtitle: a subtitle
-  group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: The goal is to classify the species that appear in camera trap images collected by research partners. We will be creating and training our own model.
-  repo: greenelab/lab-website-template
+  image: images/dss_website.png
+  # link: https://github.com/
+  description: Build and design the official DSS UCM website, including pages for About Us, Projects, Workshops, and external resources.
+  # repo: greenelab/lab-website-template
   tags:
     - software
 
 - title: Document Summarization with LLMs
-  subtitle: a subtitle
+  subtitle: <b>(Beginner)</b>
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Your goal in this competition is to generate abstracts (for research papers) from SocArXiv papers using large language models, or LLMs.
-  repo: greenelab/lab-website-template
+  image: images/summarization_v2.png
+  # link: https://github.com/
+  description: Use large language models to automatically generate abstracts for research papers from SocArXiv.
+  # repo: greenelab/lab-website-template
   tags:
     - software
 
+- title: Computer Vision Project - Spot it! Game
+  subtitle: <b>(Intermediate)</b>
+  group: featured
+  image: images/spotit_v2.png
+  # link: https://github.com/
+  description: Use Roboflow and YOLO models to train a custom dataset that allows a computer to recognize and play the Spot It! game.
+  # repo: greenelab/lab-website-template
+  tags:
+    - software
+
+- title: Image Classification Project - Conser-vision
+  subtitle: <b>(Advanced)</b>
+  group: featured
+  image: images/conservision_v2.png
+  # link: https://github.com/
+  description: Create and train a custom model to identify species in camera trap images collected by research partners.
+  # repo: greenelab/lab-website-template
+  tags:
+    - software
