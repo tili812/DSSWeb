@@ -12,8 +12,17 @@ section {
 }
 //added 'hero' scss styling
 section[data-size="hero"]{
-  padding: $extraPadding max($extraPadding, calc((100% - $page) / 2));
+  padding: $padding max($padding, calc((100% - $page) / 2));
+  padding-block: $extraPadding;
+  font-size: clamp(12px, 1rem, 3rem);
+  
 }
+//allows control over the font-size of <h1>
+section h1{
+  font-size: clamp(1rem, 2vw + 1rem, 3rem);
+  
+}
+
 section[data-size="wide"] {
   padding: $padding;
 }
