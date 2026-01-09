@@ -1,5 +1,6 @@
 ---
 ---
+$buttonColor: #042D62;
 
 button {
   cursor: pointer;
@@ -36,6 +37,16 @@ button {
   color: var(--background);
 }
 
+.button[data-style="large"]{
+  background: $buttonColor;
+  font-size: 25px;
+  
+  &:hover{
+    background: var(--text);
+    color: var(--background);
+  }
+}
+
 .button[data-style="bare"] {
   padding: 5px;
   background: none;
@@ -49,3 +60,4 @@ button {
 .button[data-flip] {
   flex-direction: row-reverse;
 }
+

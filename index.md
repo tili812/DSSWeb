@@ -4,12 +4,16 @@
 
 {% include section.html size="hero" %} 
 {%comment%} ^^This section had to placed prior to the #HERO for the 'datasize' to be applied (ie: allows this section to have hero aspects applied)   {%endcomment%}
-# HERO
-This is our hero portion of the homepage, where we give a quick and attention grabbing blurb
-
+# data science society @ ucm
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+{%
+  include button.html
+  text="Interest Form"
+  style="large"
+%}
 {% include section.html %}
 
-## Highlights
+## Mission Statement
 
 {% capture text %}
 
