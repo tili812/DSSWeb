@@ -2,34 +2,46 @@
 title: Team
 nav:
   order: 3
-  tooltip: About our team
+  tooltip: Meet our team!
 ---
 
-# {% include icon.html icon="fa-solid fa-users" %}Team
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+# Meet Our Leadership!
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" filter="role == 'pi'" %}
-{% include list.html data="members" component="portrait" filter="role != 'pi'" %}
+<h3 style="text-align: center;">DSS Board</h3>
+{% capture leadership %}
+{% include figure.html image="images/photo.jpg" caption="Axel Muniz Tello<br>**President**" %}
+{% include figure.html image="images/photo.jpg" caption="Prerana Somarapu<br>**Vice President**" %}
+{% include figure.html image="images/photo.jpg" caption="Adrian Garcia<br>**Secretary**" %}
 
-{% include section.html background="images/background.jpg" dark=true %}
+{% include figure.html image="images/photo.jpg" caption="Kathy Chau<br>**Treasurer**" %}
+{% include figure.html image="images/photo.jpg" caption="Aizen Baidya<br>**Communications Director**" %}
+{% include figure.html image="images/photo.jpg" caption="Nelida Salgado<br>**Communications Director**" %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+{% include figure.html image="images/photo.jpg" caption="Edgar Moya<br>**Events Director**" %}
+{% include figure.html image="images/photo.jpg" caption="Bryan Soto<br>**Technical Director**" %}
+{% include figure.html image="images/photo.jpg" caption="Anvi Kudaraya<br>**Technical Director**" %}
 
-{% include section.html %}
-
-{% capture content %}
-
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-
+{% include figure.html image="images/photo.jpg" caption="Tina Li<br>**Intern**" %}
+{% include figure.html image="images/photo.jpg" caption="Trevor Oh<br>**Intern**" %}
+{% include figure.html image="images/photo.jpg" caption="Aman Nindra<br>**Intern**" %}
 {% endcapture %}
+{% include grid.html style="square" content=leadership %}
 
-{% include grid.html style="square" content=content %}
+<br>
+
+<h3 style="text-align: center;">Faculty Advisors</h3>
+{% capture advisors %}
+{% include figure.html image="images/photo.jpg" caption="Dr. Rosemarie Bongers<br>**Internal Faculty Advisor**" %}
+{% include figure.html image="images/photo.jpg" caption="Dr. Ayush Pandey<br>**Internal Faculty Advisor**" %}
+{% endcapture %}
+{% include grid.html style="square" content=advisors %}
+
+<br>
+
+<h3 style="text-align: center;">DSS Alumni</h3>
+{% capture alumni %}
+{% include figure.html image="images/photo.jpg" caption="Harshini Nujella<br>**Former Technical Director**" %}
+{% endcapture %}
+{% include grid.html style="square" content=alumni %}
