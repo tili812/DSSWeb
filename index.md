@@ -7,7 +7,7 @@
 # data science society @ ucm
 <hr>
 <p style="text-align: center;">Welcome to the Data Science Society at UC Merced! </p>
-<p style="text-align: center; margin-bottom: 20px;">We are a student-led organization dedicated to learning, building, and exploring data science together. Browse our events, workshops, projects, and see how YOU can get involved.</p>
+<p style="text-align: center;">We are a student-led organization dedicated to learning, building, and exploring data science together. Browse our events, workshops, projects, and see how YOU can get involved.</p>
 
 {%
   include button.html
@@ -17,6 +17,7 @@
 %}
 
 {% include section.html %}
+
 # Mission Statement
 <hr>
 <p style="text-align: center;">Our mission is to cultivate a community of innovators passionate about data-driven discovery. Empower students to master the tools of data science, apply them to real-world problems, and collaborate across disciplines to generate insight, impact, and innovation.</p>
