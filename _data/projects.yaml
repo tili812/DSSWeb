@@ -1,47 +1,49 @@
-- title: Cool Dataset
-  subtitle: a subtitle
+- title: Intro to Regression Project - House Price Prediction
+  subtitle: <b>(Beginner)</b>
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
-
-- title: Cool Package
-  subtitle: a subtitle
-  group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
-
-- title: Cool Tutorial
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
-    - publication
-
-- title: Cool Web App
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  image: images/house_prediction.png
+  # link: https://github.com/
+  description: Predict the sales price for each house based on certain factors like location, size, number of rooms, and overall condition.
+  # repo: greenelab/lab-website-template
   tags:
     - software
 
-- title: Cool Web Server
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+- title: DSS Website
+  subtitle: <b>(Beginner)</b>
+  group: featured
+  image: images/dss_website.png
+  # link: https://github.com/
+  description: Build and design the official DSS UCM website, including pages for About Us, Projects, Workshops, and external resources.
+  # repo: greenelab/lab-website-template
+  tags:
+    - software
+
+- title: Document Summarization with LLMs
+  subtitle: <b>(Beginner)</b>
+  group: featured
+  image: images/summarization_v2.png
+  # link: https://github.com/
+  description: Use large language models to automatically generate abstracts for research papers from SocArXiv.
+  # repo: greenelab/lab-website-template
+  tags:
+    - software
+
+- title: Computer Vision Project - Spot it! Game
+  subtitle: <b>(Intermediate)</b>
+  group: featured
+  image: images/spotit_v2.png
+  # link: https://github.com/
+  description: Use Roboflow and YOLO models to train a custom dataset that allows a computer to recognize and play the Spot It! game.
+  # repo: greenelab/lab-website-template
+  tags:
+    - software
+
+- title: Image Classification Project - Conser-vision
+  subtitle: <b>(Advanced)</b>
+  group: featured
+  image: images/conservision_v2.png
+  # link: https://github.com/
+  description: Create and train a custom model to identify species in camera trap images collected by research partners.
+  # repo: greenelab/lab-website-template
   tags:
     - software
