@@ -2,34 +2,51 @@
 title: Team
 nav:
   order: 3
-  tooltip: About our team
+  tooltip: Meet our team!
 ---
 
-# {% include icon.html icon="fa-solid fa-users" %}Team
+{% include section.html background="images/yellow-science-background.jpg" %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+# Meet Our Leadership!
 
-{% include section.html %}
-
-{% include list.html data="members" component="portrait" filter="role == 'pi'" %}
-{% include list.html data="members" component="portrait" filter="role != 'pi'" %}
-
-{% include section.html background="images/background.jpg" dark=true %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+<p style="text-align: center;">Get to know the leadership team behind DSS!</p>
+<p style="text-align: center;">Our team collaborates to <b>lead projects</b>, <b>organize events</b>, and <b>empower students</b> with opportunities to learn, build, and explore data science.</p>
 
 {% include section.html %}
 
-{% capture content %}
+<h3 style="text-align: center;">DSS Board</h3>
+{% capture leadership %}
+{% include figure.html image="images/team/Axel.png" caption="Axel Muniz Tello&nbsp;&nbsp;<a href='https://www.linkedin.com' target='_blank'><i class='fa-brands fa-linkedin' style='color: #0077b5;'></i></a><br>**President**" %}
+{% include figure.html image="images/team/Prerana.png" caption="Prerana Somarapu&nbsp;&nbsp;<a href='https://www.linkedin.com' target='_blank'><i class='fa-brands fa-linkedin' style='color: #0077b5;'></i></a><br>**Vice President**" %}
+{% include figure.html image="images/team/Adrian.png" caption="Adrian Garcia&nbsp;&nbsp;<a href='https://www.linkedin.com' target='_blank'><i class='fa-brands fa-linkedin' style='color: #0077b5;'></i></a><br>**Secretary**" %}
 
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
+{% include figure.html image="images/team/Kathy.png" caption="Kathy Chau&nbsp;&nbsp;<a href='https://www.linkedin.com' target='_blank'><i class='fa-brands fa-linkedin' style='color: #0077b5;'></i></a><br>**Treasurer**" %}
+{% include figure.html image="images/team/Aizen.png" caption="Aizen Baidya&nbsp;&nbsp;<a href='https://www.linkedin.com/in/aizenbaidya/' target='_blank'><i class='fa-brands fa-linkedin' style='color: #0077b5;'></i></a><br>**Communications Director**" %}
+{% include figure.html image="images/DSS-Banner.png" caption="Nelida Salgado&nbsp;&nbsp;<a href='https://www.linkedin.com' target='_blank'><i class='fa-brands fa-linkedin' style='color: #0077b5;'></i></a><br>**Communications Director**" %}
 
+{% include figure.html image="images/team/Edgar.png" caption="Edgar Moya&nbsp;&nbsp;<a href='https://www.linkedin.com' target='_blank'><i class='fa-brands fa-linkedin' style='color: #0077b5;'></i></a><br>**Events Director**" %}
+{% include figure.html image="images/team/Bryan.png" caption="Bryan Soto&nbsp;&nbsp;<a href='https://www.linkedin.com' target='_blank'><i class='fa-brands fa-linkedin' style='color: #0077b5;'></i></a><br>**Technical Director**" %}
+{% include figure.html image="images/DSS-Banner.png" caption="Anvi Kudaraya&nbsp;&nbsp;<a href='https://www.linkedin.com' target='_blank'><i class='fa-brands fa-linkedin' style='color: #0077b5;'></i></a><br>**Technical Director**" %}
+
+{% include figure.html image="images/DSS-Banner.png" caption="Tina Li&nbsp;&nbsp;<a href='https://www.linkedin.com' target='_blank'><i class='fa-brands fa-linkedin' style='color: #0077b5;'></i></a><br>**Intern**" %}
+{% include figure.html image="images/DSS-Banner.png" caption="Trevor Oh&nbsp;&nbsp;<a href='https://www.linkedin.com' target='_blank'><i class='fa-brands fa-linkedin' style='color: #0077b5;'></i></a><br>**Intern**" %}
+{% include figure.html image="images/DSS-Banner.png" caption="Aman Nindra&nbsp;&nbsp;<a href='https://www.linkedin.com' target='_blank'><i class='fa-brands fa-linkedin' style='color: #0077b5;'></i></a><br>**Intern**" %}
 {% endcapture %}
+{% include grid.html style="square" content=leadership %}
 
-{% include grid.html style="square" content=content %}
+<br>
+
+<h3 style="text-align: center;">Faculty Advisors</h3>
+{% capture advisors %}
+{% include figure.html image="images/team/Dr-Bongers.jpg" caption="Dr. Rosemarie Bongers<br>**Internal Faculty Advisor**" %}
+{% include figure.html image="images/team/Ayush.webp" caption="Dr. Ayush Pandey<br>**Internal Faculty Advisor**" %}
+{% endcapture %}
+{% include grid.html style="square" content=advisors %}
+
+<br>
+
+<h3 style="text-align: center;">DSS Alumni</h3>
+{% capture alumni %}
+{% include figure.html image="images/team/Harshini.png" caption="Harshini Nujella&nbsp;&nbsp;<a href='https://www.linkedin.com' target='_blank'><i class='fa-brands fa-linkedin' style='color: #0077b5;'></i></a><br>**Former Technical Director**" %}
+{% endcapture %}
+{% include grid.html style="square" content=alumni %}
